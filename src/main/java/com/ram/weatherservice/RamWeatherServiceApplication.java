@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class RamWeatherServiceApplication {
+public class RamWeatherServiceApplication extends ServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RamWeatherServiceApplication.class, args);
